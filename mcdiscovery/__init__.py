@@ -1,1 +1,8 @@
-__version__ = '0.1.0'
+import socket
+import re
+
+class LocalServer(object):
+    address: str
+    port: int
+    motd: str
+
