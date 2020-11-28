@@ -1,8 +1,2 @@
-import socket
-import re
-
-class LocalServer(object):
-    address: str
-    port: int
-    motd: str
-
+from .net import LANServerFinder
+from .types import LocalServer
