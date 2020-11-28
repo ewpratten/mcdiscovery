@@ -23,7 +23,7 @@ jobs:
         run: ~/.poetry/bin/poetry install
 
       - name: Build
-        run: ~/.poetry/bin/poetry run pydoctor --make-html --html-output=docs --add-package=mcdiscovery
+        run: ~/.poetry/bin/poetry run pydoctor --make-html --html-output=docs --add-package=mcdiscovery || true
 
       - name: Check GitHub Pages status
         uses: crazy-max/ghaction-github-status@v1

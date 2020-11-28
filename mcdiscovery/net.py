@@ -54,11 +54,20 @@ class LANServerFinder(Thread):
                 self._known_server_hashes.append(hash(info))
 
     def stop(self):
+        """Stop searching for LAN servers, and close thread
+        """
         self._running = False
 
     def start(self):
+        """Begin searching for LAN servers in a new thread
+        """
         self._running = True
         super().start()
 
     def getAllFoundServers(self) -> List[LocalServer]:
+        """Get a list of all found LAN servers
+
+        Returns:
+            List[LocalServer]: Servers
+        """
         return self._known_servers
