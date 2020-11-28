@@ -12,4 +12,4 @@ python3 -m pip install mcdiscovery
 
 ## Usage
 
-`mcdiscovery` can be used as a CLI tool by running `python3 -m mcdiscovery`, or as a library with `import mcdiscovery`. API documentation can be found [here](https://ewpratten.retrylife.ca/mcdiscovery/docs/mcdiscovery.net.LANServerFinder.html). 
+`mcdiscovery` can be used as a CLI tool by running `python3 -m mcdiscovery`, or as a library with `import mcdiscovery`. API documentation can be found [here](https://ewpratten.retrylife.ca/mcdiscovery/mcdiscovery.net.LANServerFinder.html). 
